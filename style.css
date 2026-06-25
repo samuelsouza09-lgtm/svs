@@ -1,0 +1,94 @@
+/* ── Modo claro (padrão) ── */
+corpo {
+  família de fontes: Arial, sem serifa;
+  cor de fundo: #f5f5f5;
+  cor: #222222;
+  largura máxima: 680px;
+  margem: 0 auto;
+  preenchimento: 20px;
+}
+
+/* ── Modo escuro (ativado pelo JS) ── */
+body.escuro {
+  cor de fundo: #1a1a2e;
+  cor: #e0e0e0;
+}
+
+/* ── Cabeçalho ── */
+cabeçalho {
+  alinhamento do texto: centralizado;
+  preenchimento: 30px 20px;
+  borda inferior: 2px sólida #0d9488;
+  margem-inferior: 30px;
+}
+
+cabeçalho h1 {
+  tamanho da fonte: 32px;
+  cor: #0d9488;
+}
+
+cabeçalho p {
+  cor: #666666;
+  margem superior: 6px;
+}
+
+body.escuro header p {
+  cor: #aaaaaa;
+}
+
+/* ── Botão de tema ── */
+botão {
+  margem superior: 14px;
+  preenchimento: 8px 18px;
+  cor de fundo: #0d9488;
+  cor: #ffffff;
+  fronteira: nenhuma;
+  raio da borda: 6px;
+  cursor: ponteiro;
+  tamanho da fonte: 14px;
+}
+
+botão:passar o mouse {
+  cor de fundo: #0f766e;
+}
+
+/* ── Postagem (artigo) ── */
+artigo {
+  cor de fundo: #ffffff;
+  raio da borda: 10px;
+  preenchimento: 24px;
+  margem-inferior: 24px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+body.escuro article {
+  cor de fundo: #16213e;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+artigo h2 {
+  tamanho da fonte: 22px;
+  cor: #0d9488;
+  margem-inferior: 6px;
+}
+
+.dados {
+  tamanho da fonte: 13px;
+  cor: #999999;
+  margem-inferior: 14px;
+}
+
+artigo img {
+  largura: 100%;
+  raio da borda: 8px;
+  margem-inferior: 14px;
+}
+
+/* ── Rodapé ── */
+rodapé {
+  alinhamento do texto: centralizado;
+  preenchimento superior: 20px;
+  borda superior: 1px sólida #dddddd;
+  cor: #999999;
+  tamanho da fonte: 14px;
+}
