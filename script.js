@@ -9,9 +9,9 @@ botao.addEventListener('click', function() {
   document.body.classList.toggle('escuro');
 
   // Muda o texto do botão dependendo do tema atual
-  se (document.body.classList.contains('escuro')) {
+  if (document.body.classList.contains('escuro')) {
     botao.textContent = '☀️ Modo claro';
-  } outro {
+  } else {
     botao.textContent = '🌙 Modo escuro';
   }
 
